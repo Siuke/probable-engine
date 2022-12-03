@@ -1,0 +1,58 @@
+body{
+    background-color: thistle;
+}
+#container{
+    text-align: center;
+}
+
+#container table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#container table tr, th, td {
+    text-align: left;
+    width: 300px;
+}
+
+header{
+    font-size: 20px;
+    font-weight: bold;
+    color: tomato;
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    width: 400px;
+    background-color: burlywood;
+}
+
+footer{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+    display: inline-block;
+    text-align: center;
+    height: 20px;
+    width: 400px;
+    background-color: lemonchiffon;
+}
+
+ul a{
+    color: white;
+    text-decoration: none;  
+    margin: auto;
+}
+
+li{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background-color: skyblue;
+    margin: auto;
+}
+
+li:hover{
+    background-color: darkblue;
+}
